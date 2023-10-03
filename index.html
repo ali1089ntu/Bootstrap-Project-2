@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Project 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+
+    <!---Navbar--->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: rgb(0, 128, 96); position: relative;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><b><i></i></b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Service 1</a></li>
+                <li><a class="dropdown-item" href="#">Service 2</a></li>
+                <li><a class="dropdown-item" href="#">Service 3</a></li>
+                <li><a class="dropdown-item" href="#">Service 4</a></li>
+                <li><a class="dropdown-item" href="#">Service 5</a></li>
+                <li><a class="dropdown-item" href="#">Service 6</a></li>
+                <li><a class="dropdown-item" href="#">Service 7</a></li>
+                <li><a class="dropdown-item" href="#">Service 8</a></li>
+                <li><a class="dropdown-item" href="#">Service 9</a></li>
+                <li><a class="dropdown-item" href="#">Service 10</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Product 1</a></li>
+                <li><a class="dropdown-item" href="#">Product 2</a></li>
+                <li><a class="dropdown-item" href="#">Product 3</a></li>
+                <li><a class="dropdown-item" href="#">Product 4</a></li>
+                <li><a class="dropdown-item" href="#">Product 5</a></li>
+                <li><a class="dropdown-item" href="#">Product 6</a></li>
+                <li><a class="dropdown-item" href="#">Product 7</a></li>
+                <li><a class="dropdown-item" href="#">Product 8</a></li>
+                <li><a class="dropdown-item" href="#">Product 9</a></li>
+                <li><a class="dropdown-item" href="#">Product 10</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="border-radius: 0; background-color: gray;">LOG IN</a>
+            </li>
+          </ul>
+          &emsp;
+          <nav class="nav nav-pills nav-justified">
+            <a class="nav-link active" aria-current="page" href="#" style="background-color: white; color: black; border-radius: 0;"><b>GET STARTED</b></a>
+          </nav>
+        </div>
+      </div>
+    </nav>
+
+    <!---Search Navbar--->
+
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: rgb(0, 128, 96); font-weight: 900;"><b><i>.AliStore  <i class="bi bi-cart-check-fill" style="color: #ffa200;"></i></i></b></a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success text-white" type="submit" style="background-color: rgb(0, 128, 96);">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!---Container Started--->
+    
+    <!---Website Heading--->
+    
+    <div class="container-fluid">
+      <div class="row pt-5" style="background-color: black;">
+        <div class="col-12 text-center">
+          <h1 class="heading" style="font-weight: 700; font-size: 6em; color: rgb(0, 128, 96)"><b>&emsp;&emsp;&emsp;<i>ADD TO</i></b></h1>
+        </div>
+      </div>
+      <div class="row" style="background-color: black;">
+        <div class="col-12 text-center">
+          <h1 class="heading" style="font-weight: 700; font-size: 6em; color: aliceblue"><b>&emsp;&emsp;&emsp;&emsp;<i>CART</i> <i class="bi bi-bag-check-fill icon-1" style="color:#ffa200;"></i></b></h1>
+        </div>
+      </div>
+
+      <!---Portfolio Blur Images and Automatic Slider--->
+
+      <div class="row pt-5 pb-5 justify-content-center" id="Slider" style="background-color: black;">
+        <div class="col-md-5">
+          <h3>
+            <br><br><br>
+            <small class="text-body-secondary" style="font-size: 2em;">Portfolio</small><br><br>
+            <small class="text-body-secondary" style="font-size: 2em;">Blog</small><br><br>
+            <small class="text-body-secondary" style="font-size: 2em;">Services</small><br><br>
+            <small class="text-body-secondary" style="font-size: 2em;">Online Store</small><br><br>
+            <small class="text-body-secondary" style="font-size: 2em;">Personal & CV</small><br><br>
+            <small class="text-body-secondary" style="font-size: 2em;">Products</small><br><br>
+          </h3>
+        </div>
+
+      <div class="col-md-5" style="width: 700px;">
+        <br><br><br><br><br><br><br><br>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner mb-3">
+            <div class="carousel-item active">
+              <img src="online-shopping.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="online-shopping1.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="online-shopping2.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="online-shopping3.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="online-shopping4.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="online-shopping5.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---Menu (Electrnics, Health, Handbags etc)--->
+
+    <div class="row mt-5 pe-4 justify-content-evenly">
+      
+      <div class="col-lg-2">
+        <div class="card mb-3" style="width: 14rem; background-color: whitesmoke;">
+          <div class="card-body text-center">
+            <h3 class="card-title" style="color: rgb(0, 128, 96);">Electronics</h3>
+            <i class="bi bi-headphones" style="font-size: 2em; color:darkslategray"></i><br>
+            <a href="#" class="card-link" style="color: rgb(0, 128, 96);"><b>View More</b></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <div class="card mb-3" style="width: 14rem; background-color:  whitesmoke;">
+          <div class="card-body text-center">
+            <h3 class="card-title" style="color:  rgb(0, 128, 96);">Health</h3>
+            <i class="bi bi-bandaid-fill" style="font-size: 2em; color:darkslategray"></i><br>
+            <a href="#" class="card-link" style="color: rgb(0, 128, 96)"><b>View More</b></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <div class="card mb-3" style="width: 14rem; background-color:  whitesmoke;">
+          <div class="card-body text-center">
+            <h3 class="card-title" style="color: rgb(0, 128, 96);">Toddler</h3>
+            <i class="bi bi-controller" style="font-size: 2em; color:darkslategray"></i><br>
+            <a href="#" class="card-link" style="color: rgb(0, 128, 96)"><b>View More</b></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-2">
+        <div class="card mb-3" style="width: 14rem; background-color:  whitesmoke;">
+          <div class="card-body text-center">
+            <h3 class="card-title" style="color: rgb(0, 128, 96);">Sports</h3>
+            <i class="bi bi-dice-5-fill" style="font-size: 2em; color:darkslategray"></i><br>
+            <a href="#" class="card-link" style="color: rgb(0, 128, 96);"><b>View More</b></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <div class="card mb-3" style="width: 14rem; background-color:  whitesmoke;">
+          <div class="card-body text-center">
+            <h3 class="card-title" style="color:  rgb(0, 128, 96);">Vehicle Parts</h3>
+            <i class="bi bi-car-front-fill" style="font-size: 2em; color:darkslategray"></i><br>
+            <a href="#" class="card-link" style="color: rgb(0, 128, 96);"><b>View More</b></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-0 pe-4 justify-content-evenly">
+      
+      <div class="col-lg-2">
+        <div class="card mb-3" style="width: 14rem; background-color:  whitesmoke;">
+          <div class="card-body text-center">
+            <h3 class="card-title" style="color:  rgb(0, 128, 96);">Calligraphy</h3>
+            <i class="bi bi-brush-fill" style="font-size: 2em; color:darkslategray"></i><br>
+            <a href="#" class="card-link" style="color:  rgb(0, 128, 96);"><b>View More</b></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <div class="card mb-3" style="width: 14rem; background-color:  whitesmoke;">
+          <div class="card-body text-center">
+            <h3 class="card-title" style="color: rgb(0, 128, 96);">Handbags</h3>
+            <i class="bi bi-bag-fill" style="font-size: 2em; color:darkslategray"></i><br>
+            <a href="#" class="card-link" style="color: rgb(0, 128, 96);"><b>View More</b></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <div class="card mb-3" style="width: 14rem; background-color:  whitesmoke;">
+          <div class="card-body text-center">
+            <h3 class="card-title" style="color: rgb(0, 128, 96);">Home</h3>
+            <i class="bi bi-house-door-fill" style="font-size: 2em; color:darkslategray"></i><br>
+            <a href="#" class="card-link" style="color: rgb(0, 128, 96);"><b>View More</b></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <div class="card mb-3" style="width: 14rem; background-color:  whitesmoke;">
+          <div class="card-body text-center">
+            <h3 class="card-title" style="color:  rgb(0, 128, 96);">Books</h3>
+            <i class="bi bi-book-fill" style="font-size: 2em; color:darkslategray"></i><br>
+            <a href="#" class="card-link" style="color: rgb(0, 128, 96);"><b>View More</b></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <div class="card" style="width: 14rem; background-color: whitesmoke;">
+          <div class="card-body text-center">
+            <h3 class="card-title" style="color: rgb(0, 128, 96);">Cameras</h3>
+            <i class="bi bi-camera-fill" style="font-size: 2em; color:darkslategray"></i><br>
+            <a href="#" class="card-link" style="color: rgb(0, 128, 96);"><b>View More</b></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!---Recently Viewed Items--->
+
+    <div class="row pt-5 ps-4 justify-content-evenly">
+      <div class="col-sm-12">
+      <h2><b>Recently Viewed</b></h2>
+    </div>
+    </div>
+
+      <div class="row pt-4 ps-4 justify-content-evenly">
+      <div class="col-md-3">
+        <div class="card mt-3" style="width: 18rem;">
+          <img src="watches.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Watches</h5>
+            <p class="card-text">Branded Watches upto 70% OFF on Men's Watches Price in Pakistan.</p>
+            <b style="color: green;">In Stock &emsp; £11.64 - £21.66</b><br><br>
+            <a href="#" class="btn btn-primary">View More</a><br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mt-3" style="width: 18rem;">
+          <img src="calligraphy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Calligraphy</h5>
+            <p class="card-text">Calligraphy stock photos, vectors, and illustrations are available.</p>
+            <b style="color: green;">In Stock &emsp; £10.64 - £15.66</b><br><br>
+            <a href="#" class="btn btn-primary">View More</a><br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mt-3" style="width: 18rem;">
+          <img src="airpods.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Airpods Pro</h5>
+            <p class="card-text">Airpods Pro USA, Bluetooth Headset available.</p>
+            <b style="color: red;">Sold Out</b><br><br>
+            <a class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button">View More</a><br><br>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="card mt-3" style="width: 18rem;">
+          <img src="baby toys.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Baby Toys</h5>
+            <p class="card-text">All kinds of baby toys available across all over Pakistan.</p>
+            <b style="color: green;">In Stock &emsp; £6.64 - £12.66</b><br><br>
+            <a href="#" class="btn btn-primary">View More</a><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---Trending Products--->
+
+    <div class="row pt-5 ps-4 justify-content-evenly">
+      <div class="col-sm-12">
+      <h2><b>Trending Products</b></h2>
+    </div>
+    </div>
+
+    <div class="row pt-4 ps-4 justify-content-evenly">
+      <div class="col-md-3">
+        <div class="card mt-3" style="width: 18rem;">
+          <img src="card 1.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mr & Mr Card - Red 6 x 6 Card</h5>
+            <b style="color: green;">In Stock  &emsp; £5.79</b><br><br>
+            <a href="#" class="btn btn-primary">View More</a><br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mt-3" style="width: 18rem;">
+          <img src="art.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Martial Art - Male 6 x 6 Card</h5>
+            <b style="color: green;">In Stock &emsp; £6.98</b><br><br>
+            <a href="#" class="btn btn-primary">View More</a><br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mt-3" style="width: 18rem;">
+          <img src="art.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Martial Art - Female 6 x 6 Card</h5>
+            <b style="color: green;">In Stock &emsp; £7.98</b><br><br>
+            <a href="#" class="btn btn-primary">View More</a><br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card mt-3" style="width: 18rem;">
+          <img src="ear.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Earring Backing Cards Female</h5>
+            <b style="color: red;">Sold Out</b><br><br>
+            <a class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button">View More</a><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!---Top Selling Products--->
+
+      <div class="row pt-5 ps-4 justify-content-evenly">
+        <div class="col-sm-12">
+        <h2><b>Top Selling Products</b></h2>
+      </div>
+      </div>
+  
+      <div class="row pt-4 ps-4 justify-content-evenly">
+        <div class="col-md-3">
+          <div class="card mt-3" style="width: 18rem;">
+            <img src="oval.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sterling Silver Oval CZ Stud Earring</h5>
+              <b style="color: green;">In Stock  &emsp; £62.90</b><br><br>
+              <a href="#" class="btn btn-primary">View More</a><br><br>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3">
+          <div class="card mt-3" style="width: 18rem;">
+            <img src="silver.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sterling Silver CZ Stud Earring</h5>
+              <b style="color: green;">In Stock &emsp; £69.98</b><br><br>
+              <a href="#" class="btn btn-primary">View More</a><br><br>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3">
+          <div class="card mt-3" style="width: 18rem;">
+            <img src="emerald.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sterling Silver Emerald CZ Stud Earring</h5>
+              <b style="color: red;">Sold Out</b><br><br>
+              <a class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button">View More</a><br><br>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3">
+          <div class="card mt-3" style="width: 18rem;">
+            <img src="oval.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sterling Oval CZ Stud Earring</h5>
+              <b style="color: green;">In Stock &emsp; £57.98</b><br><br>
+              <a href="#" class="btn btn-primary">View More</a><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---Load More Button For Products--->
+
+    <div class="row mt-5 ps-4 pb-4 pe-4">
+      <div class="col-12 text-center">
+        <button type="button" class="btn btn-success btn-lg" style="background-color: rgb(0, 128, 96); border-radius: 0;">Load More</button>
+      </div>
+    </div>
+
+      <!---Are You a seller?--->
+
+    <div class="row mt-5" style="background-color: rgb(0, 128, 96); height: 100px;">
+      <div class="col-12 text-white align-self-center text-center">
+        <h3><b>&emsp;Are you a seller? Join our network <a href="#" class="btn btn-secondary" style="border-radius: 0;">Learn More</a></b></h3>
+      </div>
+    </div>
+
+      <!---Image and Description with two headings--->
+
+      <div class="row pt-5 pb-5 justify-content-center" style="background-color:#C0C0C0;">
+        <div class="col-md-5">
+          <img src="independent_business.svg" class="img-fluid" style="height: 500px;">
+        </div>
+        <div class="col-md-5">
+          <br>
+          <h3><b>Shop directly and support independent businesses</b></h3>
+          <small class="text-body-secondary" style="font-size: 18px;">Do you love shopping at local and independent online stores? Wish you could find similar value and customer service when shopping online? At Add to Cart we’ve brought a wide range of sellers together in one place, making it easy for you to browse and purchase thousands of quality products at the best possible price.</small>
+          
+            <br><br><h3><b>Value for money</b></h3>
+            <small class="text-body-secondary" style="font-size: 18px;">Because we dont charge our sellers any expensive fees or subscriptions, there are no markups passed on to the customer - meaning you’ll always get great value for money when you shop with Add to Cart. But it’s not just about what you save. With each purchase, you’ll be supporting independent businesses and helping to create new e-commerce models which are fairer, greener and more sustainable every step of the way.</small>
+          </div>
+      </div>
+
+      <!---Heading and Description for Creating Store on .AliStore--->
+
+    <div class="row pt-5 pb-5 mt-5 mb-4 justify-content-evenly" style="background-color: aliceblue;">
+      <div class="col-12 text-center">
+       <h3><b>We support independent businesses</b></h3>
+       <small class="text-body-secondary" style="font-size: 18px;">At Add to Cart we want to revolutionise the online shopping model, 
+         building a system that values independent <br> entrepreneurs over big names and delivers unique,
+          quality products to shoppers across the UK.</small>      
+      </div>
+     </div>
+     
+      <!---Stores--->
+
+    <div class="row pt-2 pe-4 store  justify-content-evenly">
+      <div class="col-md-2">
+        <div class="card mt-3" style="width: 14rem;">
+          <img src="shop1.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <a href="#" class="btn btn-warning">More Details</a><br><br>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-2 store">
+        <div class="card mt-3" style="width: 14rem;">
+          <img src="shop2.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <a href="#" class="btn btn-warning">More Details</a><br><br>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-2 store">
+        <div class="card mt-3" style="width: 14rem;">
+          <img src="shop3.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <a href="#" class="btn btn-warning">More Details</a><br><br>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-2 store">
+        <div class="card mt-3" style="width: 14rem;">
+          <img src="shop4.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <a href="#" class="btn btn-warning">More Details</a><br><br>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-2 store">
+        <div class="card mt-3" style="width: 14rem;">
+          <img src="shop6.webp" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <a href="#" class="btn btn-warning">More Details</a><br><br>
+        </div>
+      </div>
+      </div>
+    </div>
+
+     <!---Load More Button for Stores--->
+
+     <div class="row pb-4 mt-5 mb-5 ps-4 pe-4">
+      <div class="col-12 text-center">
+        <button type="button" class="btn btn-success btn-lg" style="background-color: rgb(0, 128, 96); border-radius: 0;">Load More</button>
+      </div>
+    </div>
+
+      <!---Security Cameras and Apple Airtags--->
+
+    <div class="row pt-3 pb-3 justify-content-evenly">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="eufy.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title"><b>Camera & Optics</b></h3>
+            <p class="card-text">A security camera that records images in or outside a building or in a public place, in order to prevent or help solve crime.</p>
+            <a href="#" class="btn btn-warning">Shop Now</a><br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="FotoJet-35-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title"><b>Apple AirTags</b></h3>
+            <p class="card-text">Attach AirTag to everyday items and easily keep track of them on iPhone. Personalize with text and emoji engraving. Buy 1 or 4 pack now at <a class="navbar-brand" href="#" style="color: rgb(0, 128, 96); font-weight: 900;"><b><i>.AliStore  <i class="bi bi-cart-check-fill" style="color: #ffa200;"></i></i></b></a>.</p>
+            <a href="#" class="btn btn-warning">Shop Now</a><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!---Heading From Our Blog--->
+
+      <div class="row pt-5">
+        <div class="col-12 text-center">
+          <h2 style="font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: black;">From Our Blog</h2>
+        </div>
+      </div>
+  
+        <!---Some Articles--->
+  
+      <div class="row pt-5 ps-5 pe-4 justify-content-evenly">
+        <div class="col-md-3 blog-articles">
+          <div class="card">
+            <img src="Ecommerce-marketing-trends.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>E-commerce Market Growth </b></h5>
+              <small class="text-body-secondary">September 18, 2023 &emsp;&emsp;&emsp;&emsp;<button type="button" class="btn btn-secondary"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+          Read More
+        </button></small>
+            </div>
+          </div><br>
+        </div>
+  
+        <div class="col-md-3 blog-articles">
+          <div class="card">
+            <img src="Frame-1-1200x600-1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>The importance of online reviews</b></h5>
+              <small class="text-body-secondary">September 18, 2023 &emsp;&emsp;&emsp;&emsp;<button type="button" class="btn btn-secondary"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+          Read More
+        </button></small>
+            </div>
+          </div><br>
+        </div>
+  
+        <div class="col-md-3 blog-articles">
+          <div class="card">
+            <img src="Buy-Gold-Jewelry-Online.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><b>The benefits of online shopping</b></h5>
+              <small class="text-body-secondary">September 18, 2023 &emsp;&emsp;&emsp;&emsp;<button type="button" class="btn btn-secondary"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+          Read More
+        </button></small>
+            </div>
+          </div><br>
+        </div>
+      </div>
+  
+        <!---Read More Articles Button--->
+  
+      <div class="row mt-5 mb-5 ps-4 pe-4">
+        <div class="col-12 text-center">
+          <button type="button" class="btn btn-success btn-lg" style="background-color: rgb(0, 128, 96); border-radius: 0;">Read More Articles</button>
+        </div>
+      </div>
+  
+        <!---FAQ--->
+  
+      <div class="row pt-4">
+        <div class="col-12 text-center">
+          <h2 style="font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: black;">FAQ</h2>
+        </div>
+      </div>
+  
+      <div class="row pt-4 pb-5 mb-5 justify-content-center">
+        <div class="col-12 align-self-center" style="width: 900px;">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  FAQ #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  FAQ #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  FAQ #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!---END--->
+  
+      <div class="row pt-5 justify-content-evenly" style="background-color: black;">
+        <div class="col-md-3 text-center text-white">
+          <a class="navbar-brand" href="#" style="color: rgb(0, 128, 96); font-weight: 900;"><b><i>.AliStore  <i class="bi bi-cart-check-fill" style="color: #ffa200;"></i></i></b></a>
+          <p>Ali Store is an e-commerce marketplace that brings a wide range of UK-based sellers together in one place, making it easy for you to browse and shop online.</p>
+          <i class="bi bi-google"></i>&emsp;<i class="bi bi-facebook"></i>&emsp;<i class="bi bi-twitter"></i>&emsp;<i class="bi bi-linkedin"></i>&emsp;<i class="bi bi-whatsapp"></i><br><br>
+        </div>
+  
+        <div class="col-md-3 text-center text-white">
+          <h5>Menu</h5>
+          <a href="#">Home</a><br>
+          <a href="#">About Us</a><br>
+          <a href="#">Services</a><br>
+          <a href="#">Products</a><br>
+          <a href="#">Blog</a><br>
+          <a href="#">Support</a><br><br>
+        </div>
+  
+        <div class="col-md-3 text-center text-white">
+          <h5>Legal Staff</h5>
+          <a href="#">Terms & Conditions</a><br>
+          <a href="#">Privacy Policy</a><br>
+          <a href="#">Cookie Policy</a><br>
+          <a href="#">Shipping Policy</a><br>
+          <a href="#">Security Incident Policy</a><br>
+          <a href="#">Returns Policy</a><br><br>
+        </div>
+  
+        <div class="col-md-3 text-center text-white">
+          <h5>Contact Us</h5>
+          Faisalabad<br>
+          Pakistan<br>
+          <i class="bi bi-whatsapp" style="color: green;"> : <a href="#" > 0320-2299200</a></i><br><br>
+        </div>
+      </div>
+  
+        <!---Line--->
+  
+        <div class="row pt-2" style="background-color: black;">
+        <div class="col-12">
+          <hr style="color: rgb(0, 128, 96);">
+        </div>
+      </div>
+  
+        <!---Logos--->
+  
+      <div class="row pb-3 justify-content-evenly" style="background-color: black;">
+        <div class="col-2">
+          <img src="mercedes.webp" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="gucci.webp" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="audi.webp" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="xbox.webp" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="lego (1).webp" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="range-rover.webp" class="img-fluid">
+        </div>
+      </div>
+  
+        <!---Developed By and Copyright Message--->
+  
+      <div class="row pt-2" style="background-color: grey;">
+        <div class="col-12 text-center">
+          <h5><b>Developed By Ali Muhammad</b></h5>
+          <h6>Copyright &copy 2023. All rights reserved.</h6>
+        </div>
+      </div>
+
+    <!---Container Div Ended--->
+
+  </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

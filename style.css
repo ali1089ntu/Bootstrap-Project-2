@@ -1,0 +1,9 @@
+@media only screen and (max-width:768px) {
+    .heading{
+        font-weight: 600 !important;
+        font-size: 5em !important;
+    }
+}
+
+
+
